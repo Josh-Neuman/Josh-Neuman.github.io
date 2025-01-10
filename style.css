@@ -49,8 +49,8 @@ h1 { font-size: 6.0rem; line-height: 1.5; letter-spacing: -.1rem; }
 h2 { font-size: 2.0rem; line-height: 0.5;  letter-spacing: -.1rem; }
 h3 { font-size: 2.0rem; line-height: 0.5; letter-spacing: -.1rem; }
 h4 { font-size: 2.0rem; line-height: 0.5;  letter-spacing: -.1rem; }
-h5 { font-size: 3.0rem; line-height: 1.6;  letter-spacing: -.1; }
-h6 { font-size: 3.0rem; line-height: 1.6;  letter-spacing: -.1; }
+h5 { font-size: 3.0rem; line-height: 1.6;  letter-spacing: -.1rem; }
+h6 { font-size: 3.0rem; line-height: 1.6;  letter-spacing: -.1rem; }
 
 /**
  * Paragraphs
