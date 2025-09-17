@@ -113,9 +113,25 @@ Designed a 3D printed modular chassis capable of quick changes to suit the needs
 Soldered wires for necessary components such as, photoresistors, LED’s, and motor drivers.
 Tested and integrated PID control. 
       </p>
-      <img src="car1.jpg" alt="Avatar" style="width:250px">
-      <img src="car2.jpg" alt="Avatar" style="width:250px">
-      <img src="car3.jpg" alt="Avatar" style="width:250px">
+<div class="image-row">
+  <img src="car1.jpg" alt="Avatar" style="width:250px">
+  <img src="car2.jpg" alt="Avatar" style="width:250px">
+  <img src="car3.jpg" alt="Avatar" style="width:250px">
+</div>
+
+<style>
+  .image-row {
+    display: flex;
+    justify-content: space-between; /* This spreads the images out evenly */
+    gap: 10px; /* Optional: Adds a consistent gap between images */
+  }
+
+  .image-row img {
+    /* Optional: Ensure images don't stretch and maintain aspect ratio */
+    max-width: 100%;
+    height: auto;
+  }
+</style>
       
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
